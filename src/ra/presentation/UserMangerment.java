@@ -26,9 +26,6 @@ public class UserMangerment {
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_RED = "\u001B[31m";
 
-    public static void main(String[] args) {
-        UserManagerment();
-    }
     public static void UserManagerment() {
         boolean check = true;
         do {

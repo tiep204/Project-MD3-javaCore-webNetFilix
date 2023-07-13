@@ -14,12 +14,6 @@ public class CatalogManagerment {
     public static final String ANSI_RED = "\u001B[31m";
     public static CatalogImpl catalogImp = new CatalogImpl();
     public static List<Catalog> catalogList = catalogImp.readFromFile();
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        catalogManagerment(sc);
-    }
-
     public static void catalogManagerment(Scanner sc) {
         boolean check = true;
         do {

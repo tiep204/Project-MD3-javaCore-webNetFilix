@@ -17,10 +17,6 @@ public class EpisodeManagerment {
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_RED = "\u001B[31m";
 
-    public static void main(String[] args) {
-        episodeManagerment();
-    }
-
     public static void episodeManagerment() {
         Scanner sc = new Scanner(System.in);
         boolean check = true;
